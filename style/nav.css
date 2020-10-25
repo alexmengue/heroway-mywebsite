@@ -1,0 +1,28 @@
+.nav {
+    background-color: #2C3E50;
+}
+
+.nav > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 0 20px;
+    height: 80px;
+    color: #fff;
+}
+
+.nav > .container .menu {
+    display: flex;
+    width: 320px;
+    justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+    .nav > .container {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

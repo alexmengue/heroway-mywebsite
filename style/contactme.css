@@ -1,0 +1,58 @@
+.section-contactme {
+    background-color: #fff;
+    color: #2C3E50;
+}
+
+.section-contactme > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 60%;
+    padding: 60px 130px;
+}
+
+.section-contactme > .container h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+.section-contactme > .container > form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section-contactme > .container > form input, textarea {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-top: #fff;
+    border-left: #fff;
+    border-right: #fff;
+    border-bottom: 2px solid #E9ECEF;
+}
+
+.section-contactme > .container > form > button {
+    background-color: #D40A44;
+    color: #fff;
+    width: 80px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #D40A44;
+}
+
+.section-contactme > .container button:hover {
+    background-color: #ca3e66;
+    color: #fff;
+}
+
+@media (max-width: 800px) {
+    .section-contactme > .container {
+        padding: 60px 15px;
+    }
+}
